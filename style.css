@@ -185,7 +185,8 @@
   .task-item--editing .task-item__label {
     display: none; 
   }
-  @media (max-width: 768px) {
-    .aaa { text-align: center;
-    }
-    }
+@media (max-width: 768px) {
+  .promo {
+    text-align: center;
+  }
+}
