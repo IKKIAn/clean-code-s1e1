@@ -1,190 +1,182 @@
 /* Basic Style */
 .page-body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
-  }
-.aaa {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
-}
-.aaa img {
-    width: 100%;
-}
-.aaa .more_inf {
-    font-family: fantasy, cursive;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
+/* Promo Block */
+.promo {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
 
+.promo__image {
+  width: 100%;
+}
+
+.promo__link {
+  font-family: fantasy, cursive;
+}
+
+/* Todo App Container */
 .todo-app {
-    display: block;
-    width: 500px;
-    margin: 0 auto;
-  }
-.task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
+  display: block;
+  width: 500px;
+  margin: 0 auto;
 }
-.task-row-wrapper {
-    display: flex;
-}
+
 /* Add Task Block */
 .add-task__label {
-    display: block;
-    margin: 0 0 20px;
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    text-transform: uppercase;
-  }
-  
-  .add-task__form {
-    display: flex;
-  }
-  
-  .add-task__input {
-    flex-grow: 1;
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: auto;
-    padding: 0 9px;
-    border: 1px solid #ddd;
-    background: #fff;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
-    outline: none;
-  }
-  
-  .add-task__input:focus {
-    color: #333;
-  }
-  
-  .add-task__button {
-    background: none;
-    border: 0;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  .add-task__button:hover {
-    color: #3a3a3a;
-  }
-/* Tasks Block */
-  .tasks__title {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
-  }
-  
-  .tasks__list {
-    margin: 0;
-    padding: 0;
-  }
-
-
-/* Task list */
-.task-item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .task-item > * {
-    vertical-align: middle;
-  }
-  
-  .task-item__checkbox {
-    margin: 0 10px;
-    outline: none;
-  }
-  
-  .task-item__label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
-  }
-  
-  .task-item__input {
-    display: none;
-    width: 224px;
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: auto;
-    padding: 0 9px;
-    border: 1px solid #ddd;
-    background: #fff;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
-    outline: none;
-  }
-  
-  .task-item__button {
-    background: none;
-    border: 0;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
-    outline: none;
-  }
-  
-  .task-item__button:hover {
-    color: #3a3a3a;
-  }
-  
-  .task-item__delete-icon {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
-  }
-  
-  .task-item__button--delete:hover .task-item__delete-icon {
-    transform: rotateZ(0);
-  }
-
-/* Completed */
-.tasks__list--completed .task-item__label {
-    text-decoration: line-through;
-    color: #888;
+  display: block;
+  margin: 0 0 20px;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  text-transform: uppercase;
 }
 
-/* Edit Task */
+.add-task__form {
+  display: flex;
+}
 
+.add-task__input {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: auto;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  outline: none;
+}
+
+.add-task__input:focus {
+  color: #333;
+}
+
+.add-task__button {
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-task__button:hover {
+  color: #3a3a3a;
+}
+
+/* Tasks Block */
+.tasks__title {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.tasks__list {
+  margin: 0;
+  padding: 0;
+}
+
+/* Task Item Element */
+.task-item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.task-item > * {
+  vertical-align: middle;
+}
+
+.task-item__checkbox {
+  margin: 0 10px;
+  outline: none;
+}
+
+.task-item__label {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.task-item__input {
+  display: none;
+  width: 224px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: auto;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  outline: none;
+}
+
+.task-item__button {
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.task-item__button:hover {
+  color: #3a3a3a;
+}
+
+.task-item__delete-icon {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.task-item__button--delete:hover .task-item__delete-icon {
+  transform: rotateZ(0);
+}
+
+/* Modifiers */
 .tasks__list--completed .task-item__label {
-    text-decoration: line-through;
-    color: #888;
-  }
   
-  .task-item--editing .task-item__input {
-    display: inline-block;
-  }
-  
-  .task-item--editing .task-item__label {
-    display: none; 
-  }
+  color: #333;
+}
+
+.task-item--editing .task-item__input {
+  display: inline-block;
+}
+
+.task-item--editing .task-item__label {
+  display: none;
+}
+
+/* Media Queries */
 @media (max-width: 768px) {
   .promo {
     text-align: center;
