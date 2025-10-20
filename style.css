@@ -170,7 +170,7 @@
 
 /* Completed */
 .tasks__list--completed .task-item__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
