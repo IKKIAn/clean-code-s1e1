@@ -17,10 +17,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-.aaa { text-align: center;
-}
-}
+
 .todo-app {
     display: block;
     width: 500px;
@@ -186,5 +183,9 @@
   }
   
   .task-item--editing .task-item__label {
-    display: none;
+    display: none; 
   }
+  @media (max-width: 768px) {
+    .aaa { text-align: center;
+    }
+    }
